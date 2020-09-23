@@ -16,3 +16,5 @@ Retorne o seguinte conteúdo:
 ~~~
 O usuário mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com nº 1293.
 ~~~
+
+[Código JavaScript](https://github.com/EmanuelLacerda/Desafios-CursoJS-RocketSeat/blob/master/modulo01-desafio01/scripts/index.js)
