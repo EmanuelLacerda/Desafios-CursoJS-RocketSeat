@@ -8,3 +8,5 @@ function pares(x, y) {
 
 pares(32, 321);
 ~~~
+
+[Código JavaScript](https://github.com/EmanuelLacerda/Desafios-CursoJS-RocketSeat/blob/master/modulo01-desafio02/scripts/index.js)
