@@ -13,6 +13,6 @@ var endereco = {
 
 Retorne o seguinte conteúdo:
 
-~~~javascript
+~~~
 O usuário mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com nº 1293.
 ~~~
