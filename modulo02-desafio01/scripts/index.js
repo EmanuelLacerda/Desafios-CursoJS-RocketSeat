@@ -9,16 +9,6 @@ var btnElement = document.querySelector('#botao');
 btnElement.onclick = function(){
 	var containerElement = document.querySelector('#app');
 
-	/*
-	//Descomentando essa parte o quadrado vermelho atual será apagado
-	//sempre que o botão for clicado
-	var redSquare = document.querySelector('.redSquare');
-
-	if (redSquare != null){
-		containerElement.removeChild(redSquare);
-	};
-	*/
-
 	var redSquare = document.createElement('div');
 
 	redSquare.setAttribute('class','redSquare');
