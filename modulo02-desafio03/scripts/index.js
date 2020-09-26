@@ -12,11 +12,15 @@ var nomes = ["Diego", "Gabriel", "Lucas"];
 
 var ulElement = document.querySelector('.lista-nao-ordenada');
 
-for (var i=0;i<nomes.length;i++){
+function criarNovoElementoDaLista(texto) {
 	var liElement = document.createElement('li');
 
-	var text = document.createTextNode(nomes[i]);
+	var text = document.createTextNode(texto);
 	liElement.appendChild(text);
 
 	ulElement.appendChild(liElement);
+}
+
+for (var i=0;i<nomes.length;i++){
+	criarNovoElementoDaLista(nomes[i]);
 }
