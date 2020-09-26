@@ -6,16 +6,19 @@ novo quadrado deve aparecer na tela.
 
 var btnElement = document.querySelector('#botao');
 
+function setRedSquareCSSStyle(redSquare){
+	redSquare.style.width = '100px';
+	redSquare.style.height = '100px';
+	redSquare.style.backgroundColor = '#f00';
+}
+
 btnElement.onclick = function(){
 	var containerElement = document.querySelector('#app');
 
 	var redSquare = document.createElement('div');
-
 	redSquare.setAttribute('class','redSquare');
 
-	redSquare.style.width = '100px';
-	redSquare.style.height = '100px';
-	redSquare.style.backgroundColor = '#f00';
+	setRedSquareCSSStyle(redSquare)
 
 	containerElement.appendChild(redSquare);
 }
